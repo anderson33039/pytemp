@@ -1,1 +1,8 @@
 # pytemp
+
+to download packages that are needed, use the following as of your version:
+python -m pip install -r requirements.txt
+
+WHERE TO PUT:
+image assets: static/assets/ (you can add folders to organize)
+informations: data/config.json
