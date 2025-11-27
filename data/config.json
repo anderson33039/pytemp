@@ -1,0 +1,16 @@
+{
+    "name" : "Shane Mae S. Palanog",
+    "age" : "19",
+    "address" : "House address st. brgy di makita ",
+    "contact" : "+639293949596979",
+    "height" : "5'8 (720cm)",
+    "weight" : "30kg",
+    "mn" : "My Mother",
+    "fn" : "My Father",
+    "religion" : "Workaholic",
+    "data" : {
+        "school" : "school address blah blah",
+        "hobbies" : ["walking", "breathing", "blinking", "Crying"],
+        "skills" : ["A", "B", "C"]
+    }
+}

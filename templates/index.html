@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        background: url('/static/assets/') rgb(239, 238, 238); /** REMOVE RGB IF YOU ADDED BACKGROUND IMAGE **/
+    }
+    form {
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(183, 223, 255);
+        width: 90%;
+        max-width: 500px;
+        height: max-content;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .joint {
+        width: max-content;
+        height: auto;
+        background-color: white;
+        justify-self: center;
+    }
+    .joint input {
+        border: none;
+        height: 30px;
+        text-indent: 10px;
+    }
+    img {
+        position: relative;
+        top: 5px;
+        padding-right: 5px;
+    }
+    input[type=submit]{
+        width: 200px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(147, 233, 252);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        transition: transform 0.1s ease-in-out;
+    }
+    input[type=submit]:hover {
+        background-color: rgb(118, 179, 192);
+        color: white;
+        transform: scale(1.09);
+    }
+    
+</style>
+<body>
+    <form action="/login" method="post">
+        <h1>LOGIN</h1>
+        <div class="joint">
+            <input type="text" name="username" placeholder="Username">
+            <img src="/static/assets/user.png" alt="" width="20" height="20">
+        </div>
+        <br>
+        <div class="joint">
+            <input type="password" name="password" placeholder="Password">
+            <img src="/static/assets/key.png" alt="" width="20" height="20">
+        </div>
+        <br>
+        <input type="submit" value="LOGIN">
+    </form>
+</body>
+</html>
